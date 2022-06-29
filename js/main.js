@@ -102,9 +102,9 @@ prevBtn.addEventListener("click", function () {
     activeElement--;
 
     // * If at list start, restart from -1
-    if (activeElement === 0) {
-        activeElement = imagesList.length - 1;
-    }
+    if (activeElement === -1) {
+        activeElement = images.length - 1;
+    }   
 
     // * Adding active class
     imageSelect[activeElement].classList.add("active");

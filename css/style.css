@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 
+
 img {
     width: 1420px;
     height: 700px;
@@ -10,7 +11,11 @@ img {
 }
 
 
+
+
 .container-1 {
+    width: 1420px;
+    height: 700px;
     display: none;
     position: relative;
 
