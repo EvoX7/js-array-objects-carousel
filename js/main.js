@@ -65,7 +65,7 @@ for (let i = 0; i < images.length; i++) {
 const prevBtn = document.getElementById("btn-prev");
 const nextBtn = document.getElementById("btn-next");
 
-// * Selecting all imgs in the html div
+// * Selecting all images in the html div
 const imageSelect = document.querySelectorAll(".container-1");
 
 
@@ -89,7 +89,6 @@ nextBtn.addEventListener("click", function () {
 
     // * Adding active class
     imageSelect[activeElement].classList.add("active");
-
 
 });
 
